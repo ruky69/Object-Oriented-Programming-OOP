@@ -67,4 +67,4 @@ player_turn(pro)
 
 - The classes interact harmoniously throughout the program. The `Deck` class initializes and shuffles the deck. The `Hand` class manages both player and dealer hands, handling card addition, value calculation, and drawing.
 
-The black_jack_oop.ipynb code exemplifies the application of OOP concepts to create a functional Blackjack game with modular and organized code structure.
+The black_jack_oop code exemplifies the application of OOP concepts to create a functional Blackjack game with modular and organized code structure.
