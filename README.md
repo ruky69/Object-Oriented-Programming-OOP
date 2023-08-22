@@ -31,7 +31,7 @@ The provided code showcases the application of Object-Oriented Programming (OOP)
 
 - Though not explicitly shown, the code can be extended to include polymorphism. By creating different classes with shared methods but distinct implementations, it becomes feasible to introduce game variations or additional features. In the context of the game, polymorphism can be used to call common methods on different objects, regardless of whether they are amateurs or professional players.
 
-````
+````python
 def player_turn(player):
     print(f"{player.__class__.__name__}'s turn:")
     choice = input("Hit or stand? ").lower()
