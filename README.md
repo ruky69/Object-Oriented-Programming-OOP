@@ -4,11 +4,11 @@ The provided code showcases the application of Object-Oriented Programming (OOP)
 
 ### Classes
 
-1. **Card:** Represents individual playing cards with attributes for suit and rank. It includes methods for retrieving suit and rank, drawing the card, and a `__str__` method for string representation.
+- **Card:** Represents individual playing cards with attributes for suit and rank. It includes methods for retrieving suit and rank, drawing the card, and a `__str__` method for string representation.
 
-2. **Hand:** Represents a player's or dealer's hand of cards. It tracks the hand's cards, value, and the presence of an Ace. It offers methods for adding cards, calculating the hand's value, drawing cards, and a `__str__` method for string representation.
+- **Hand:** Represents a player's or dealer's hand of cards. It tracks the hand's cards, value, and the presence of an Ace. It offers methods for adding cards, calculating the hand's value, drawing cards, and a `__str__` method for string representation.
 
-3. **Deck:** Models a deck of playing cards. It features methods for shuffling the deck, dealing cards, and a `__str__` method for string representation.
+- **Deck:** Models a deck of playing cards. It features methods for shuffling the deck, dealing cards, and a `__str__` method for string representation.
 
 ### Object Instantiation
 
