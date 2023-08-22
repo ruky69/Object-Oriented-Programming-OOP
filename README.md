@@ -27,8 +27,11 @@ The provided code showcases the application of Object-Oriented Programming (OOP)
 - While explicit inheritance isn't directly demonstrated, all classes implicitly inherit from the base Python object class. In more complex scenarios, explicit inheritance could be used to create specialized subclasses with shared behaviors. In the context of the Blackjack game, creating subclasses for different types of players (e.g. amateur or professional) that inherit from a common base class ('Player') is one way of applying inheritance to the project.
 
 class Player:
+
     def __init__(self):
+    
         self.hand = Hand()
+
 
 class AmateurPlayer(Player):
 
@@ -47,6 +50,7 @@ class ProfessionalPlayer(Player):
 ### Polymorphism
 
 - Though not explicitly shown, the code can be extended to include polymorphism. By creating different classes with shared methods but distinct implementations, it becomes feasible to introduce game variations or additional features. In the context of the game, polymorphism can be used to call common methods on different objects, regardless of whether they are amateurs or professional players.
+
 
 def player_turn(player):
 
